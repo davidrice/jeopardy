@@ -4,7 +4,7 @@
   "description": "jeopardy bot",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test.js "
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
   },
   "dependencies": {
     "express": "~4.12.4"
+  },
+  "devDependencies": {
+    "mocha": "~2.2.5",
+    "chai": "~3.0.0"
   }
 }
