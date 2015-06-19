@@ -1,0 +1,24 @@
+{
+  "name": "jeopardy",
+  "version": "0.0.0",
+  "description": "jeopardy bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davidrice/jeopardy.git"
+  },
+  "keywords": [
+    "jeopardy"
+  ],
+  "author": "daverice",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/davidrice/jeopardy/issues"
+  },
+  "dependencies": {
+    "express": "~4.12.4"
+  }
+}
